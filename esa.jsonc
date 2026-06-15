@@ -1,8 +1,6 @@
 {
-  "name": "vite-react-template",
+  "name": "pcg-test-next16",
   "installCommand": "npm install",
-  "assets": {
-    "directory": "./dist",
-    "notFoundStrategy": "singlePageApplication"
-  }
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next"
 }
