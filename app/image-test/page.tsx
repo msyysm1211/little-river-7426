@@ -13,6 +13,7 @@ export default function ImageTestPage() {
           width={640}
           height={400}
           quality={75}
+          sizes="(max-width: 640px) 100vw, 640px"
           style={{ borderRadius: '8px' }}
         />
       </section>
@@ -26,6 +27,7 @@ export default function ImageTestPage() {
             width={456}
             height={240}
             quality={72}
+            sizes="(max-width: 768px) 100vw, 50vw"
             style={{ borderRadius: '8px' }}
           />
           <Image
@@ -34,6 +36,7 @@ export default function ImageTestPage() {
             width={541}
             height={240}
             quality={71}
+            sizes="541px"
             style={{ borderRadius: '8px' }}
           />
         </div>
