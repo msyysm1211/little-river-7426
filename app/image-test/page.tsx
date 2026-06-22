@@ -10,10 +10,10 @@ export default function ImageTestPage() {
         <Image
           src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4865035761/p554833.png"
           alt="Responsive test image"
-          width={640}
+          width={1280}
           height={400}
           quality={75}
-          sizes="(max-width: 640px) 100vw, 640px"
+          sizes="640px"
           style={{ borderRadius: '8px' }}
         />
       </section>
@@ -24,10 +24,10 @@ export default function ImageTestPage() {
           <Image
             src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2109057961/p581805.png"
             alt="Medium test image"
-            width={456}
+            width={865}
             height={240}
             quality={72}
-            sizes="(max-width: 768px) 100vw, 50vw"
+            sizes="640px"
             style={{ borderRadius: '8px' }}
           />
           <Image
@@ -36,7 +36,7 @@ export default function ImageTestPage() {
             width={541}
             height={240}
             quality={71}
-            sizes="541px"
+            sizes="640px"
             style={{ borderRadius: '8px' }}
           />
         </div>
