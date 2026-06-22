@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
     unoptimized: false,
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [{ hostname: 'help-static-aliyun-doc.aliyuncs.com'}],
+    qualities: [25, 50, 71, 72, 75, 100],
   },
 };
 
