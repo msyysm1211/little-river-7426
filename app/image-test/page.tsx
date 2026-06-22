@@ -21,7 +21,7 @@ export default function ImageTestPage() {
         <h2>Multiple Sizes</h2>
         <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
           <Image
-            src="https://img.alicdn.com/imgextra/i4/O1CN01Z5paLz1O0DXGQ3JQo_!!6000000001643-2-tps-800-600.png"
+            src="https://p0.meituan.net/imgupload/e6fa5220d85f18aa03746d8d6fe6890638080.jpg%40watermark%3D0"
             alt="Medium test image"
             width={320}
             height={240}
@@ -29,7 +29,7 @@ export default function ImageTestPage() {
             style={{ borderRadius: '8px' }}
           />
           <Image
-            src="https://img.alicdn.com/imgextra/i3/O1CN01bHPMq61CVN2050oEL_!!6000000000086-2-tps-800-600.png"
+            src="https://img2.baidu.com/it/u=2824166696,1668414176&fm=253&app=138&f=JPEG"
             alt="Small test image"
             width={320}
             height={240}
