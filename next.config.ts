@@ -7,8 +7,8 @@ const nextConfig: NextConfig = {
   cacheComponents: true,
   images: {
     unoptimized: false,
-    formats: ['image/avif', 'image/webp'],
-    remotePatterns: [{ hostname: 'img.alicdn.com' }],
+    formats: ['image/avif', 'image/webp', 'image/png'],
+    remotePatterns: [{ hostname: 'help-static-aliyun-doc.aliyuncs.com'}],
   },
 };
 
