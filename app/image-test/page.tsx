@@ -8,7 +8,7 @@ export default function ImageTestPage() {
       <section style={{ marginBottom: '2rem' }}>
         <h2>Responsive Image</h2>
         <Image
-          src="http://pic1.win4000.com/m00/f5/84/e3ba665109711fea2dd35b2044b30949.jpg"
+          src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4865035761/p554833.png"
           alt="Responsive test image"
           width={640}
           height={400}
@@ -21,7 +21,7 @@ export default function ImageTestPage() {
         <h2>Multiple Sizes</h2>
         <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
           <Image
-            src="https://p0.meituan.net/imgupload/e6fa5220d85f18aa03746d8d6fe6890638080.jpg%40watermark%3D0"
+            src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2109057961/p581805.png"
             alt="Medium test image"
             width={320}
             height={240}
@@ -29,7 +29,7 @@ export default function ImageTestPage() {
             style={{ borderRadius: '8px' }}
           />
           <Image
-            src="https://img2.baidu.com/it/u=2824166696,1668414176&fm=253&app=138&f=JPEG"
+            src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6849542261/p279052.png"
             alt="Small test image"
             width={320}
             height={240}
