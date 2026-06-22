@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: false,
     formats: ['image/avif', 'image/webp'],
-    remotePatterns: [{ hostname: 'picsum.photos' }],
+    remotePatterns: [{ hostname: 'img.alicdn.com' }],
   },
 };
 
