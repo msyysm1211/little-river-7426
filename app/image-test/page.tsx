@@ -23,17 +23,17 @@ export default function ImageTestPage() {
           <Image
             src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2109057961/p581805.png"
             alt="Medium test image"
-            width={320}
+            width={456}
             height={240}
-            quality={75}
+            quality={72}
             style={{ borderRadius: '8px' }}
           />
           <Image
             src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6849542261/p279052.png"
             alt="Small test image"
-            width={320}
+            width={541}
             height={240}
-            quality={75}
+            quality={71}
             style={{ borderRadius: '8px' }}
           />
         </div>
