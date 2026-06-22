@@ -8,7 +8,7 @@ export default function ImageTestPage() {
       <section style={{ marginBottom: '2rem' }}>
         <h2>Responsive Image</h2>
         <Image
-          src="https://img.alicdn.com/imgextra/i1/O1CN01bPMYCT1EY2t2GVWWU_!!6000000000362-2-tps-1280-800.png"
+          src="http://pic1.win4000.com/m00/f5/84/e3ba665109711fea2dd35b2044b30949.jpg"
           alt="Responsive test image"
           width={640}
           height={400}
